@@ -4,6 +4,6 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres
-    username:
-    password:
+    url: jdbc:postgresql://localhost:5430/postgres
+    username: hdseo
+    password: 1234

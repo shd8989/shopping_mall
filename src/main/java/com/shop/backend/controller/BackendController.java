@@ -1,12 +1,12 @@
 package com.shop.backend.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 
-@RestController
+@Controller
 public class BackendController {
-    @RequestMapping("/")
-    public String Sample() {
-        return "sample";
+    @GetMapping(value =  {"", "/notice"})
+    public String forward() {
+        return "forward:/index.html";
     }
 }
