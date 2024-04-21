@@ -18,7 +18,7 @@ PostgreSQL : 42.3.8
 - Gradle, Distribution : Wrapper task
 
 ## Intellij 빌드 설정
-[Application]
+[Application]<br/>
 Before launch
 1. Run 'Gradle build clean'
 2. Build
@@ -28,6 +28,6 @@ Build and run
 - backend.main
 - com.shop.backend.BackendApplication
 
-[Gradle]
+[Gradle]<br/>
 Run
 - build clean -Dskip.tests
