@@ -16,3 +16,18 @@ PostgreSQL : 42.3.8
 - Build and run using : IntelliJ IDEA
 - Run tests using : IntelliJ IDEA
 - Gradle, Distribution : Wrapper task
+
+## Intellij 빌드 설정
+[Application]
+Before launch
+1. Run 'Gradle build clean'
+2. Build
+
+Build and run
+- java 17
+- backend.main
+- com.shop.backend.BackendApplication
+
+[Gradle]
+Run
+- build clean -Dskip.tests
