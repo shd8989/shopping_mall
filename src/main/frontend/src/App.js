@@ -3,6 +3,7 @@ import {Route, Routes} from "react-router-dom";
 import axios from 'axios';
 import Header from './common/Header';
 import Footer from './common/Footer';
+import MainBanner from './MainBanner';
 import Page1 from './Page1';
 import Page2 from './Page2';
 
@@ -17,6 +18,7 @@ class App extends React.Component {
           <div className="App">
             <Header />
             <Routes>
+                <Route path="/" element={<MainBanner />} />
                 <Route path="/page1" element={<Page1 />} />
                 <Route path="/page2" element={<Page2 />} />
             </Routes>
