@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MainBanner = () => {ss
+const MainBanner = () => {
     return (
           <>
             <div className="main-banner" id="top">
